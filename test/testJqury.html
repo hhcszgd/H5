@@ -16,9 +16,21 @@
 $(document).ready(function(){
   $("p").click(function(){
     $(this).hide();
+
   });
 });
+function alertView(para){
+	// alert("asldkjflaksjd");
+	console.log(para);
+	test();
+	return para + "hello world";
+}
 
+function test(){
+	webkit.messageHandlers.ylcm.postMessage("aaaaaaaaaaaaaaa");
+}
  </script>
+
+
 </body>
 </html>
